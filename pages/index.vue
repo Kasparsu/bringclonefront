@@ -1,8 +1,11 @@
 <template>
   <div class="container mx-auto">
         <collapse v-for="category in categories" :key="category.id" :title="category.name">
-            <div class="flex">
-                <item v-for="item in category.items" :key="item.id" :item="item"></item>
+            <div class="grid grid-cols-12 gap-1">
+                <div v-for="item in category.items" :key="item.id" >
+                    <item :item="item"></item>
+                </div>
+                
             </div>
         </collapse>
   </div>
