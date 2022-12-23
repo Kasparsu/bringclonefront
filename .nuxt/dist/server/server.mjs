@@ -1,0 +1,1 @@
+export { default } from "file:///C:/Users/kaspa/nodeprojects/bringclone/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
