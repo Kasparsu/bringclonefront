@@ -1,7 +1,7 @@
 {
-  "_hash": "p8xAMv0gjI",
+  "_hash": "ChsG9D2YOM",
   "project": {
-    "rootDir": "C:/Users/kaspa/nodeprojects/bringclone"
+    "rootDir": "/home/kasparsu/projects/node/bringclonefront"
   },
   "versions": {
     "nuxt": "3.0.0"

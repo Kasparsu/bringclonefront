@@ -1,5 +1,5 @@
 
-import { defuFn } from 'C:/Users/kaspa/nodeprojects/bringclone/node_modules/defu/dist/defu.mjs'
+import { defuFn } from '/home/kasparsu/projects/node/bringclonefront/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

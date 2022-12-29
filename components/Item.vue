@@ -1,11 +1,11 @@
 <template>
-  <div class="card bg-primary shadow-xl p-2">
-  <figure class="w-20 h-20 mx-auto"><img class="h-full" :src="'http://localhost:8000'+ item.icon" alt="Shoes" /></figure>
-  <div class="card-body overflow-hidden m-0 p-0">
-    <h2 class="card-title text-base mx-auto">{{item.name}}</h2>
-    <p class="text-sm mx-auto break-keep h-4"></p>
+  <div class="bg-primary shadow-xl">
+    <div class="flex justify-center pt-2 h-[60px] items-center"><img class="max-h-[50px] max-w-[65px] h-fit" :src="'http://localhost:8000'+ item.icon" :alt="item.name" /></div>
+    <div class="justify-center text-gray-50 flex h-[43px]">
+        <div class="text-center leading-tight">{{item.name}}</div>
+    </div>
   </div>
-</div>
+
 </template>
 
 <script>
@@ -15,5 +15,4 @@ export default {
 </script>
 
 <style>
-
 </style>

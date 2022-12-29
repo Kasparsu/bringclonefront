@@ -1,1 +1,1 @@
-export { default } from "file:///C:/Users/kaspa/nodeprojects/bringclone/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///home/kasparsu/projects/node/bringclonefront/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
